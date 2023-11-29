@@ -50,4 +50,8 @@ public class Cafeteria {
     public void agregarCafe(Cafe cafe){
         getListaCafes().add(cafe);
     }
+
+    public void eliminarCafe(Cafe cafe){
+        getListaCafes().remove(cafe);
+    }
 }
